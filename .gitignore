@@ -1,0 +1,99 @@
+Python
+
+pycache/
+*.py[cod]
+*$py.class
+*.so
+
+Virtual environments
+
+venv/
+.venv/
+env/
+ENV/
+
+Python packaging
+
+build/
+dist/
+*.egg-info/
+.eggs/
+
+Jupyter Notebook
+
+.ipynb_checkpoints/
+
+Environment variables and secrets
+
+.env
+.env.*
+!.env.example
+
+Machine Learning artifacts
+
+.pkl
+.pickle
+.joblib
+models/.pkl
+models/.pickle
+models/.joblib
+
+Datasets
+
+data/
+datasets/
+
+Network captures
+
+*.pcap
+*.pcapng
+pcaps/
+
+Snort logs
+
+logs/
+snort_logs/
+*.log
+
+Generated output
+
+outputs/
+results/
+reports/
+
+Streamlit
+
+.streamlit/secrets.toml
+
+Operating system files
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+IDEs and editors
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+Temporary files
+
+*.tmp
+*.temp
+*.bak
+
+Jupyter
+
+*.ipynb_checkpoints
+
+Test and coverage files
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+Local configuration
+
+config.local.*
